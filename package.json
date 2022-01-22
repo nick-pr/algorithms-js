@@ -1,0 +1,20 @@
+{
+  "name": "algorigthms",
+  "version": "1.0.0",
+  "description": "This repo is intended for me to further my knowledge and understanding of popular algorithms and how to implement them in Javascript.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nick-pr/algorithms-js.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Nick-pr/algorithms-js/issues"
+  },
+  "homepage": "https://github.com/Nick-pr/algorithms-js#readme"
+}
