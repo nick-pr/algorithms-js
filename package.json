@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "This repo is intended for me to further my knowledge and understanding of popular algorithms and how to implement them in Javascript.",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
