@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/Nick-pr/algorithms-js/issues"
   },
-  "homepage": "https://github.com/Nick-pr/algorithms-js#readme"
+  "homepage": "https://github.com/Nick-pr/algorithms-js#readme",
+  "devDependencies": {
+    "jest": "^27.4.7"
+  }
 }
