@@ -1,6 +1,10 @@
 import { bubbleSort } from './bubbleSort.js';
+import { quickSort } from './quickSort.js';
 
-describe.each([['Bubble Sort', bubbleSort]])('%s', (_, sort) => {
+describe.each([
+    ['Bubble Sort', bubbleSort],
+    ['QuickSort', quickSort],
+])('%s', (_, sort) => {
     it('Should not return anything', () => {
         const array = [12, 3, 4, 5];
         const result = sort(array);
