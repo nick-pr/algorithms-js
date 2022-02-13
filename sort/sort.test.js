@@ -1,9 +1,11 @@
 import { bubbleSort } from './bubbleSort.js';
-import { quickSort } from './quickSort.js';
+import { quickSort2 as quickSort } from './quickSort.js';
+import { mergeSort } from './mergeSort.js';
 
 describe.each([
     ['Bubble Sort', bubbleSort],
-    ['QuickSort', quickSort],
+    ['Quick Sort', quickSort],
+    ['Merge Sort', mergeSort],
 ])('%s', (_, sort) => {
     it('Should not return anything', () => {
         const array = [12, 3, 4, 5];
